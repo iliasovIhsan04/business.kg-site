@@ -1,0 +1,166 @@
+.header {
+  width: 100%;
+  height: 80px;
+}
+.logo-box {
+  display: flex;
+  gap: 19px;
+}
+.line-logo {
+  width: 2px;
+  height: 50px;
+  background: #1e1e1e;
+}
+.login-btn {
+  width: 120px;
+  background: #f1f3f7;
+  color: #1e1e1e;
+}
+.announcement-btn {
+  background: #cbff00;
+  color: #1e1e1e;
+  padding: 0 24px 0 24px;
+}
+.line-header-box {
+  width: 100%;
+  height: 60px;
+  background: #000000;
+}
+.page-box {
+  display: flex;
+  gap: 45px;
+}
+.nav-link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 6px 12px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+.urgent {
+  background-color: #ff0000;
+}
+.nav-link.active {
+  background-color: #ff0000;
+}
+.nav-link:hover {
+  background-color: #ff4d4d;
+}
+.select-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.select-img,
+.more-img {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  pointer-events: none;
+}
+.select-img {
+  left: 10px;
+}
+.more-img {
+  right: 10px;
+}
+.regions-select {
+  flex: 1;
+  padding: 8px 40px 8px 40px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  background: none;
+  border: none;
+  appearance: none;
+  cursor: pointer;
+}
+.regions-select:focus {
+  border-color: #ff0000;
+  outline: none;
+}
+.regions-select option {
+  background-color: white;
+  color: #333;
+}
+.regions-select option:hover {
+  background-color: #f2f2f2;
+}
+.regions-select option:active {
+  background-color: #e6e6e6;
+}
+.sell-and-buy {
+  margin-top: 24px;
+}
+.sell-and-buy-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #1e1e1e;
+}
+.sell-and-buy-filter-box {
+  gap: 10px;
+  margin-top: 24px;
+}
+.sell-and-buy-filter {
+  width: 100%;
+  height: 60px;
+  background: #f1f3f7;
+  border-radius: 10px;
+  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.find-btn {
+  height: 60px;
+  width: 120px;
+  background: #1b4dfc;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.sell-and-buy-filter-line {
+  height: 60px;
+  border-left: 2px solid #9d9d9d;
+}
+.sell-and-buy-filter-line:first-child {
+  border-left: none !important;
+}
+.sell-and-buy-filter-line:last-child {
+  border-right: none !important;
+}
+.filter-select {
+  width: 50px;
+  color: #9d9d9d !important;
+  padding: 8px 5px;
+  height: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  background: none;
+  border: none;
+  appearance: none;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+.icon-select {
+  position: absolute;
+  right: 20px;
+  pointer-events: none;
+  color: #9d9d9d;
+}
+.car-mark {
+  font-size: 16;
+  font-weight: 500;
+  color: #9d9d9d;
+  pointer-events: none;
+}
+.filter-select-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
